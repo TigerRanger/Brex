@@ -1,0 +1,74 @@
+/*-----------------------------------------------------------------------------
+
+KENBURNER RESPONSIVE BASIC STYLES OF HTML DOCUMENT
+
+Screen Stylesheet
+
+version:   	1.0
+date:      	07/27/11
+author:		themepunch
+email:     	support@themepunch.com
+website:   	http://www.themepunch.com
+-----------------------------------------------------------------------------*/
+
+
+
+.boxedcontainer		{	max-width: 1170px; margin:auto; padding:0px 30px;}
+
+/*********************************************
+	-	SETTINGS FOR BANNER CONTAINERS	-
+**********************************************/
+
+.tp-banner-container{
+	width:100%;
+	position:relative;
+	/*padding-top:77px;*/
+
+}
+
+.tp-banner{
+	width:100%;
+	position:relative;
+	
+}
+
+.tp-banner-fullscreen-container {
+		width:100%;
+		position:relative;
+		padding:0;
+
+}
+/*.move{
+	    background-image:url('../images/slider1-bg.jpg');background-repeat:no-repeat; 
+	    }
+/*.move img{
+  height: 100%;
+  width: 100%;
+  background-image: url('../images/slider1-bg.jpg');
+  background-repeat: repeat-x;
+  background-size: cover;
+  border-radius: 5px;
+}*/
+/*#demo-box-2 img{
+	background-image:url('../images/slider1-bg.jpg');
+	background-repeat:repeat; 
+	background-position:0; 
+	height:300px;
+	width:300px;
+}
+*/
+#photo{
+	position: relative;
+	width: 280px;
+	height: 165px;
+	padding: 10px;
+	border:solid 1px #DDD;
+	-webkit-box-shadow:0 6px 6px -6px grey;
+	-moz-box-shadow:0 6px 6px -6px grey;
+	box-shadow:0 6px 6px -6px grey;
+      }
+      #photo img{
+      	position: absolute;
+      	top: 10px;
+      	left: 10px;
+      }
